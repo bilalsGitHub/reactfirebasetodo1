@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>ToDo Uygulaması</h1>
+      <h1>ToDo App With Firebase</h1>
       <AuthGoogle />
       <TodoList></TodoList>
     </div>

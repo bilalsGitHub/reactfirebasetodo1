@@ -69,7 +69,7 @@ const TodoList = () => {
           <h2>{user.displayName}'s Todo List</h2>
           <input
             type="text"
-            placeholder="Yeni görev ekleyin"
+            placeholder="Type in your todo"
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
           />
